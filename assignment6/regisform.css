@@ -1,0 +1,10 @@
+body {
+  background-image: url('valheim_background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.fieldset1{background-color: cornsilk;opacity: 80%;}
+.logo_valheim {display: block; margin-left: auto; margin-right: auto; width: 500px;padding: 10px;}
+.regis_top {color: brown;font-size: 50px;}
+.regis_top_legend{margin:0 auto;}

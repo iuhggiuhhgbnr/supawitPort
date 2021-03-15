@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo1">Click the button to change the text in this paragraph.</p>
+<br>
+<p id="demo2">Click the button to change the text in this paragraph.</p>
+<br>
+<p id="demo3">Click the button to change the text in this paragraph.</p>
+
+<p id="numcheck">check number</p>
+<br>
+<button onclick="myFunction()">click here to post to comment</button>
+
+
+<script>
+var a =1;
+function myFunction() {
+document.getElementById("numcheck").innerHTML = a;
+if(a == 1)
+{
+document.getElementById("demo1").innerHTML = "Hello World 1";
+a++;
+}
+
+else if(a == 2)
+{
+document.getElementById("demo2").innerHTML = "Hello World 2";
+a++;
+}
+else if(a == 3)
+{
+document.getElementById("demo3").innerHTML = "Hello World 3";
+}
+
+ 
+}
+</script>
+
+</body>
+</html>

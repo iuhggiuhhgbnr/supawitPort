@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Square game</title>
+		<script type="text/javascript" src="game.js"></script>
+		<link rel="stylesheet" type="text/css" href="game.css">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
+	</head>
+	<body>
+		<!-- these codes were adapted from https://courses.cs.washington.edu/courses/cse154/17sp/lecture/more-dom/code/squares.html  -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+<div id="top_button" class="top_button" data-aos ="zoom-in" data-aos-duration="1500">           
+		<li><a href="../index.html">RETURN</a></li>       
+	  </div>
+
+		<fieldset>
+			<legend id="Head_legend"><p>Controller</p></legend>
+			Number of box: 
+			<input type="text" name="numbox" id="numbox">
+			<select name="color" id = "color">
+  				<option value="red">Red</option>
+  				<option value="blue">Blue</option>
+  				<option value="green">Green</option>
+				<option value="gold">Gold</option>
+			</select>
+			<button id="start">Start</button>
+			<br>
+			<br>
+			<br>
+			<br>
+
+			<input type="text" name="clockInput" id="clockInput" class="clockInput" placeholder="input a time">
+
+			<div id="timerClock"> <p>Timer:</p>
+				<div id="clock"></div>
+			</div>
+		</fieldset>			
+		<div id="Square_Container_Game">
+			<div id="Square_Layer_Game"></div>
+		</div>
+	
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+

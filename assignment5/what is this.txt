@@ -1,0 +1,8 @@
+This work are working with a input
+
+So if you input your word and press button
+
+the word that you type gonna show up in line
+
+
+see index.html how it work
