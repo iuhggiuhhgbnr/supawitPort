@@ -1,0 +1,209 @@
+.head{width: 100%;}
+body{background-color:#f3f1f0} /*back ground*/
+.top_button{
+  width: 100%;
+  /*background-color: orange;*/
+  padding: 10px 0px;
+  text-align: center;
+  position: fixed;
+  margin:0 auto;
+  background-color: rgb(73, 72, 72);
+  opacity: 80%;  
+
+} 
+.top_button > li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  /*border-left: 1px solid white;*/
+  /*background-color: rgb(120, 76, 163);*/
+  padding: 0px 40px;   /*ระยะห่าง*/
+}
+.top_button > li > a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  transition: 1s;
+}
+
+.top_button > li > a:hover{
+  color: wheat;
+  text-decoration: none;
+  font-size: 45px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media only screen and (max-width: 900px){
+  .top_button > li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    /*border-left: 1px solid white;*/
+    /*background-color: rgb(120, 76, 163);*/
+    padding: 0px 10px;   /*ระยะห่าง*/
+  }
+  .top_button > li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 1s;
+  }
+  
+  .top_button > li > a:hover{
+    color: wheat;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+
+/*Skill*/
+.troll_1{display: block; margin-left: auto; margin-right: auto;width:  382px;height: 335px;z-index: 1;transition: width 2s;}
+.troll_1:hover { width:  392px;height: 345px;}
+
+.profile_1{color:rgb(22, 20, 20); font-family: 'Courier New', Courier, monospace;text-align: center;font-size: 30px;transition: 0.5s;}
+.profile_1:hover{font-size: 40px;}
+
+.Information_1 > div{ text-align: center; font-family:'Potta One', cursive; font-size: 20px; padding-bottom: 0%;} 
+.Information_1 { background-color: #f3f1f0;} 
+
+.skill1{background-color: white;}
+.skill {color:rgb(22, 20, 20); font-family: 'Courier New', Courier, monospace;text-align: center;font-size: 30px;transition: 0.5s;}
+.skill:hover {font-size: 45px;}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 33.33% auto 33.33%;     /** 100 % / 4 **/
+  grid-gap: 5px;
+  width: 98%;
+}
+
+.grid-container > div{
+  border: 5px solid black;
+  text-align: center;
+  background-color:white;
+} 
+
+#unity {grid-column: 1 / span 1; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;} 
+#unity:hover {background-color: rgb(97, 109, 109);color: white;} 
+#visual {grid-column: 2 / span 1;font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;}
+#visual:hover {background-color: rgb(164, 45, 194);color: white;} 
+#photoshop {grid-column: 3 / span 1;font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;}
+#photoshop:hover {background-color: rgb(47, 52, 128);color: white;} 
+#maya {grid-column: 1 / span 1;font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;}
+#maya:hover {background-color: aqua;color: white;} 
+#git {grid-column: 2 / span 1;font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;}
+#git:hover {background-color: rgb(5, 61, 75);color: white;} 
+#ce {grid-column: 3 / span 1;font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;}
+#ce:hover {background-color: rgb(15, 36, 36);color: white;} 
+
+@media only screen and (max-width: 1500px){
+  .grid-container{
+    display: grid;
+        grid-template-columns: auto 20%;
+        grid-gap: 10px;
+  }
+  #unity {grid-column: 1 / span 3; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;} 
+  #visual {grid-column: 1 / span 3; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;} 
+  #photoshop {grid-column: 1 / span 3; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;} 
+  #maya {grid-column: 1 / span 3; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;} 
+  #git {grid-column: 1 / span 3; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;} 
+  #ce {grid-column: 1 / span 3; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;} 
+}
+
+/*Hobby*/
+
+.hobby1{background-color: white;}
+.hobby {color:rgb(22, 20, 20); font-family: 'Courier New', Courier, monospace;text-align: center;font-size: 30px;transition: 0.5s;}
+.hobby:hover {font-size: 45px;}
+
+.grid-container-hob{
+  display: grid;
+  grid-template-columns: 50% auto 50%;     /** 100 % / 4 **/
+  grid-gap: 5px;
+  width: 98%;
+}
+
+.grid-container-hob > div{
+  border: 5px solid black;
+  text-align: center;
+  background-color:white;
+} 
+#hob1 {grid-column: 1 / span 1; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;font-size: 25px;} 
+#hob1:hover {background-color: rgb(109, 110, 110);color: white;} 
+#hob2 {grid-column: 2 / span 2; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;} 
+#hob2:hover {background-color: rgb(6, 27, 27);color: white;} 
+
+/*Contact*/
+
+.contact1{background-color: white;}
+.contact {color:rgb(22, 20, 20); font-family: 'Courier New', Courier, monospace;text-align: center;font-size: 30px;transition: 0.5s;}
+.hobby:hover {font-size: 45px;}
+
+.grid-container-con{
+  display: grid;
+  grid-template-columns: 33.33% auto 33.33%;     /** 100 % / 4 **/
+  grid-gap: 5px;
+  width: 100%;
+}
+
+.grid-container-con > div{
+  border: 5px solid black;
+  text-align: center;
+  background-color:white;
+  margin: 0px; 
+  padding: 10px;
+} 
+#con1 {grid-column: 1 / span 1; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;font-size: 20px;} 
+#con1:hover {background-color: rgb(23, 141, 209);color: white;} 
+#con2 {grid-column: 2 / span 1; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;font-size: 20px;} 
+#con2:hover {background-color: rgb(23, 141, 209);color: white;} 
+#con3 {grid-column: 3 / span 1; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;font-size: 20px;} 
+#con3:hover {background-color: rgb(23, 141, 209);color: white;} 
+
+@media only screen and (max-width: 1500px){
+  .grid-container-con{
+    display: block;
+    grid-template-columns: auto 20%;
+  }
+  .grid-container-con > div{
+    border: 5px solid black;
+    text-align: center;
+    background-color:white;
+    margin: 20px; 
+    padding: 10px;
+  } 
+  #con1 {grid-column: 1 / span 1; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;font-size: 20px;} 
+  #con1:hover {background-color: rgb(23, 141, 209);color: white;} 
+  #con2 {grid-column: 2 / span 1; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;font-size: 20px;} 
+  #con2:hover {background-color: rgb(23, 141, 209);color: white;} 
+  #con3 {grid-column: 3 / span 1; font-family: 'Courier New', Courier, monospace; font-size:30px;transition: 0.5s;font-size: 20px;} 
+  #con3:hover {background-color: rgb(23, 141, 209);color: white;} 
+}
+
+/*Assignment*/
+.assignText {font-size: 15px;color: black;font-family: 'Courier New', Courier, monospace;text-decoration: none;}
+
+/*************************ProJect***********************/
+
+.head_project_1 {text-align: center;font-size: 30px;font-family: 'Courier New', Courier, monospace;}
+.box-container-grid{
+  display: grid;
+  grid-template-columns: 33.33% auto 33.33%;     /** 100 % / 4 **/
+  grid-gap: 5px;
+  width: 98%;
+}
+.box-container-grid > div{
+  border: ;
+  text-align: center;
+  background-color:;
+  padding: 10%;
+  margin-top: 0%;
+} 
+.box-container-grid > div > img {width: 80%;}
+
+
+
+
